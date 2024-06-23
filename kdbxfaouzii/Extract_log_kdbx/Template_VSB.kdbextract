@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence>
+  <ExportFormatFilter>
+    <ExportFormatSettings>
+      <EFSSerialized xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <m_columnSeparator>"	"</m_columnSeparator>
+        <m_prefixColumnsX>"	"</m_prefixColumnsX>
+        <m_prefixColumnsY>"&lt;DBTitle&gt;	"</m_prefixColumnsY>
+        <m_prefixColumnCount>2</m_prefixColumnCount>
+      </EFSSerialized>
+      <GridSettings>
+        <GSSerialized xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <m_bEraseFolder>false</m_bEraseFolder>
+          <m_curveFilePattern>"data_&lt;Window&gt;_&lt;Curve&gt;.txt"</m_curveFilePattern>
+          <m_customColumnSeparator>""</m_customColumnSeparator>
+          <m_dateFormat>""</m_dateFormat>
+          <m_headerRowStr>""</m_headerRowStr>
+          <m_invalidCharReplacement>0</m_invalidCharReplacement>
+          <m_outputFolder>"C:\Extract_log_kdbx\extract2/Failed"</m_outputFolder>
+          <m_prefixColumnX>""</m_prefixColumnX>
+          <m_prefixColumnY>"&lt;DBTitle&gt;"</m_prefixColumnY>
+          <m_replaceNaN>""</m_replaceNaN>
+          <m_timeFormat>""</m_timeFormat>
+          <m_columnSeparator>Tab</m_columnSeparator>
+          <m_decimalSeparator>Period</m_decimalSeparator>
+          <m_fileOverwriteMode>Overwrite</m_fileOverwriteMode>
+          <m_lineBreaks>Standard_CRLF</m_lineBreaks>
+          <m_quoteChars>DoubleQuotes</m_quoteChars>
+          <m_quoteMode>IfNecessary</m_quoteMode>
+          <m_xAxisErrorMode>WriteEmptyRow</m_xAxisErrorMode>
+          <m_xAxisMode>SharedXAxis</m_xAxisMode>
+          <InterpolationOption>Empty</InterpolationOption>
+          <Intpol_CustomOutOfRangeReplacement>""</Intpol_CustomOutOfRangeReplacement>
+          <Intpol_LogSetting>Auto</Intpol_LogSetting>
+          <Transpose>false</Transpose>
+          <ExportMode>Text</ExportMode>
+        </GSSerialized>
+      </GridSettings>
+    </ExportFormatSettings>
+  </ExportFormatFilter>
+  <ResultsFilter>
+    <RFSerialized xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <m_extractAllCurves>true</m_extractAllCurves>
+      <ResultInfo>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Centre (Mic1) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Centre (Mic1) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Left (Line1) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Left (Line1) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Right (Line2) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Right (Line2) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Woofer (Mic2) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Woofer (Mic2) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Centre (Mic1) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Centre (Mic1) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Centre (Mic1) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Left (Line1) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Left (Line1) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Left (Line1) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Right (Line2) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Right (Line2) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Right (Line2) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Woofer (Mic2) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Woofer (Mic2) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Woofer (Mic2) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Centre (Mic1) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Centre (Mic1) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Left (Line1) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Left (Line1) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Right (Line2) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Right (Line2) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Woofer (Mic2) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Woofer (Mic2) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+      </ResultInfo>
+      <ResultTypeInfo>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+        <PairOfEResultContainerTypeEResultType>
+          <First>Chart</First>
+          <Second>Curve</Second>
+        </PairOfEResultContainerTypeEResultType>
+      </ResultTypeInfo>
+      <PrototypeOpElementID>{00000003-0000-0000-0000-000000000000}</PrototypeOpElementID>
+      <ResultTypeInfo2>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Centre (Mic1) - THD</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Centre (Mic1) - THD Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Left (Line1) - THD</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Left (Line1) - THD Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Right (Line2) - THD</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Right (Line2) - THD Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Woofer (Mic2) - THD</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Woofer (Mic2) - THD Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Centre (Mic1) - Frequency Response</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Centre (Mic1) - Response Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Centre (Mic1) - Response Min</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Left (Line1) - Frequency Response</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Left (Line1) - Response Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Left (Line1) - Response Min</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Right (Line2) - Frequency Response</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Right (Line2) - Response Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Right (Line2) - Response Min</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Woofer (Mic2) - Frequency Response</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Woofer (Mic2) - Response Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Woofer (Mic2) - Response Min</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Centre (Mic1) - Rub+Buzz (rel.)</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Centre (Mic1) - Rub+Buzz Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Left (Line1) - Rub+Buzz (rel.)</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Left (Line1) - Rub+Buzz Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Right (Line2) - Rub+Buzz (rel.)</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Right (Line2) - Rub+Buzz Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Woofer (Mic2) - Rub+Buzz (rel.)</Second>
+        </PairOfEResultContainerTypeScilabString>
+        <PairOfEResultContainerTypeScilabString>
+          <First>R</First>
+          <Second>Woofer (Mic2) - Rub+Buzz Max</Second>
+        </PairOfEResultContainerTypeScilabString>
+      </ResultTypeInfo2>
+      <ResultTypeInfo3>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Centre (Mic1) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Centre (Mic1) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Left (Line1) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Left (Line1) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Right (Line2) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Right (Line2) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Woofer (Mic2) - THD</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Distortion</First>
+          <Second>Woofer (Mic2) - THD Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Centre (Mic1) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Centre (Mic1) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Centre (Mic1) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Left (Line1) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Left (Line1) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Left (Line1) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Right (Line2) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Right (Line2) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Right (Line2) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Woofer (Mic2) - Frequency Response</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Woofer (Mic2) - Response Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Frequency Response</First>
+          <Second>Woofer (Mic2) - Response Min</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Centre (Mic1) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Centre (Mic1) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Left (Line1) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Left (Line1) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Right (Line2) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Right (Line2) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Woofer (Mic2) - Rub+Buzz (rel.)</Second>
+        </PairOfStringString>
+        <PairOfStringString>
+          <First>Rub+Buzz (Relative)</First>
+          <Second>Woofer (Mic2) - Rub+Buzz Max</Second>
+        </PairOfStringString>
+      </ResultTypeInfo3>
+    </RFSerialized>
+  </ResultsFilter>
+  <OperationFilter>
+    <OFSerialized xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ExtractQcOnly>false</ExtractQcOnly>
+      <m_operationFilters>
+        <OperationFilterItem>
+          <OFISerialized>
+            <name>Filter 1</name>
+            <conditions>
+              <SerializedDictionary>
+                <KeyValuePairs>
+                  <Key>PathPattern</Key>
+                  <Value>*</Value>
+                </KeyValuePairs>
+                <KeyValuePairs>
+                  <Key>OperationType</Key>
+                  <Value>AllowAll</Value>
+                </KeyValuePairs>
+                <KeyValuePairs>
+                  <Key>OperationComment</Key>
+                  <Value>*</Value>
+                </KeyValuePairs>
+                <KeyValuePairs>
+                  <Key>PowerTestDUTName</Key>
+                  <Value>*</Value>
+                </KeyValuePairs>
+                <KeyValuePairs>
+                  <Key>TimeCursor</Key>
+                  <Value>Preselected</Value>
+                </KeyValuePairs>
+              </SerializedDictionary>
+            </conditions>
+          </OFISerialized>
+        </OperationFilterItem>
+      </m_operationFilters>
+    </OFSerialized>
+  </OperationFilter>
+  <DBFileFilter>
+    <DBFFSerialized xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <prototypeItem>C:\Log_SFTP_KDBX</prototypeItem>
+      <m_dbFiles />
+      <m_listFiles />
+      <m_folders>
+        <DBFFIFolder>
+          <DBFolderSerialized>
+            <fileName>C:\Log_SFTP_KDBX</fileName>
+            <recursive>false</recursive>
+            <filter>false</filter>
+          </DBFolderSerialized>
+        </DBFFIFolder>
+      </m_folders>
+    </DBFFSerialized>
+  </DBFileFilter>
+  <BaseFolderSerialized xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <basePath>C:\Extract_log_kdbx</basePath>
+  </BaseFolderSerialized>
+</Sequence>

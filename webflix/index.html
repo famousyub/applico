@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webflix - Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">  
+      
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head> 
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">Virmana</span><span class="text-bold">Docs</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Flix App</a></li>
+                    <li class="breadcrumb-item active">Documentation</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><i class="icon fas fa-check"></i> Documentation </h1>
+                    <div class="meta"><i class="fas fa-check"></i> Config your application without technical knowable</div>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section class="doc-section">
+                                <div  class="section-block">
+                                    <div class="content">
+                                        <p>
+                                        Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/virmana">here</a>. Thanks so much!
+                                        </p>
+                                        <p>
+                                        Created: 25/08/2020 <br>
+                                        By: Virmana Inc <br>
+                                        Email: virmana.inc@gmail.com <br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                            <hr>
+                            <section id="setup-webflix" class="doc-section">
+                                <h2 class="section-title">Setup webflix</h2>
+                                <div class="content">
+                                    <p>After download and uzip the downloaded files Now you need to setup your webflix website and that required a shared hosting or a vps server with the requirement bellow </p>
+                                </div>
+                                <br>
+                                <div class="callout-block callout-success">
+                                    <div class="icon-holder">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="callout-title">Hosting Requirements</h4>
+                                        <ul>
+                                            <li>Exif Extension</li>
+                                            <li>Fileinfo Extension</li>
+                                            <li>GD Extension</li>
+                                            <li>PHP iconv extension</li>
+                                            <li>PHP Vertsion 7.0/7.1/7.2/7.3</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>After prepare your server follow the steps bellow to setup the webflix website</p>
+                            	<h3>1. Upload project to hositng</h3>
+                            	<br>
+                            	<div class="step">
+                                	<span>1</span><p>In the <b>FILES</b> section, click <b>File Manager</b> icon.
+ 										<br><a href="assets/images/image_17.jpg" target="_blank"><img src="assets/images/image_17.jpg"></a>
+                                	</p>
+                                </div>
+                            	<div class="step">
+                                	<span>2</span><p>Click <b>Upload</b> from the top toolbar and upload your <b>Webflix</b> folder as zip file
+ 									<br><a href="assets/images/image_19.jpg" target="_blank"><img src="assets/images/image_19.jpg"></a>
+ 									<br><a href="assets/images/image_20.jpg" target="_blank"><img src="assets/images/image_20.jpg"></a>
+                                	</p>
+                                </div>
+                            	<div class="step">
+                                	<span>3</span><p> Now click <b>right click</b> on zip file <b>Webflix.zip</b> then click <b>Exract</b> to to descompress the zip file
+ 									<br><a href="assets/images/image_21.jpg" target="_blank"><img src="assets/images/image_21.jpg"></a>
+ 									<br>
+ 									<br>
+                                	Now your project has been extracted 
+ 									<br><a href="assets/images/image_37.png" target="_blank"><img src="assets/images/image_37.png"></a>
+                                	</p>
+                                </div>
+                            	<h3>2. Create your database</h3>
+                            	<br>
+                            	<div class="step">
+                                	<span>1</span><p>In the <b>Databases</b> section, click the <b>MySQL Database Wizard</b> icon.
+ 										<br><a href="assets/images/image_13.jpg" target="_blank"><img src="assets/images/image_13.jpg"></a>
+                                	</p>
+                                </div>
+                            	<div class="step">
+                                	<span>2</span><p>For <b>Step 1: Create A Database</b>, enter the database name, and click <b>Next Step.</b>
+ 										<br><a href="assets/images/image_14.jpg" target="_blank"><img src="assets/images/image_14.jpg"></a>
+                                	</p>
+                                </div>
+                            	<div class="step">
+                                	<span>3</span><p>For <b>Step 2: Create Database Users</b>, enter the database user name and password, and click <b>Create User.</b>
+ 										<br><a href="assets/images/image_15.jpg" target="_blank"><img src="assets/images/image_15.jpg"></a>
+                                	</p>
+                                </div>
+                            	<div class="step">
+                                	<span>4</span><p>For <b>Step 3: Add User to the Database</b>, click the <b>All Privileges</b> checkbox and click <b>Next Step.</b>
+ 										<br><a href="assets/images/image_16.jpg" target="_blank"><img src="assets/images/image_16.jpg"></a>
+                                	</p>
+                                </div>
+                            	<div class="step">
+                                	<span>5</span><p>For <b>Step 4: Complete the task,</b> make a note of the database name, username, and password, as you will need them for next Step </p>
+                                </div>
+                                <h3>3. Import databse in phpMyAdmin</h3>
+                                <div class="step">
+                                    <span>1</span><p>Now go to <b>Database</b> section, click the <b>phpMyAdmin</b></b>
+                                        <br><a href="assets/images/image_30.png" target="_blank"><img src="assets/images/image_30.png"></a>
+                                    </p>
+                                </div>
+                                <div class="step">
+                                    <span>2</span><p> <b>phpMyAdmin</b> will open now select the databse you have create and click the <b>import</b></b>
+                                        <br><a href="assets/images/image_31.png" target="_blank"><img src="assets/images/image_31.png"></a>
+                                    </p>
+                                </div>
+                                <div class="step">
+                                    <span>3</span><p>Click <b>Choose File</b> and select your <b>database.sql</b> file then click <b>Go</b> button</b>
+                                        <br><a href="assets/images/image_32.png" target="_blank"><img src="assets/images/image_32.png"></a>
+                                    </p>
+                                </div>
+                                <div class="step">
+                                    <span>4</span><p>Now your database has been import</b>
+                                        <br><a href="assets/images/image_33.png" target="_blank"><img src="assets/images/image_33.png"></a>
+                                    </p>
+                                </div>
+                            	<h3>4. Config your database</h3>
+                            	<br>
+                                <div class="step">
+                                    <span>1</span><p>go to file <b>File Manager</b> go to <b>webflix/app/config/parameters.yml</b> file and click <b>Edit</b>
+                                        <br><a href="assets/images/image_34.png" target="_blank"><img src="assets/images/image_34.png"></a>
+                                    </p>
+                                </div>
+                                <div class="step">
+                                    <span>2</span><p>Set your database infos: <br><br>
+                                        * Set your <b>database name</b> <br>
+                                        * Set your <b>dabase user </b><br>
+                                        * Set your <b>dabase password </b><br>
+                                        * Then click <b>Save Changes</b> button
+                                        <br><a href="assets/images/image_35.png" target="_blank"><img src="assets/images/image_35.png"></a>
+                                    </p>
+                                </div>
+                                <div class="callout-block callout-warning">
+                                    <div class="icon-holder">
+                                        <i class="fas fa-infos"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="callout-title">Delete Cache files</h4>
+                                        <p>After finish instalation go to <b>webflix / var / cache</b> and delete <b>prod</b> folder</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span>3</span><p><b>Configuration your website has been configured successfully</b>
+                                        <br><a href="assets/images/image_28.jpg" target="_blank"><img src="assets/images/image_28.jpg"></a>
+                                    </p>
+                                </div>
+                                <div class="callout-block callout-success">
+                                    <div class="icon-holder">
+                                        <i class="fas fa-infos"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="callout-title">Free instalation support</h4>
+                                        <p>if you didn't understand any part our team will be ready at <a href="mailto:virmana.inc@gmail.com">virmana.inc@gmail.com</a> to help to install the script for free. </p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="setup-facebook-login" class="doc-section">
+                                <h2 class="section-title">Setup Facebook login</h2>
+                                <div class="content">
+                                    <p>After config everything now you app need to config the facebook login auth to do that follow the steps bellow </p>
+	                                <div class="step">
+	                                	<span>1</span><p>Go to <a href="https://developers.facebook.com/">FACEBOOK for developpers</a> website</p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>2</span><p>Click on My Apps and create new app (if you have already one for mobile version use it)</p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>3</span><p>Click on Setup Facebook Login <br><a href="assets/images/image_1.jpg" target="_blank"><img src="assets/images/image_1.jpg"></a></p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>4</span><p>Select WEB version to setup the website <br><a href="assets/images/image_2.jpg" target="_blank"><img src="assets/images/image_2.jpg"></a></p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>5</span><p>Enter your website url and click save <br><a href="assets/images/image_3.jpg" target="_blank"><img src="assets/images/image_3.jpg"></a></p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>6</span><p>go to Menu left > Facebook login > settings and add your facebook valid OAuth Redirect URLs (https://example.com/login/check-facebook)<br><a href="assets/images/image_4.jpg" target="_blank"><img src="assets/images/image_4.jpg"></a></p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>7</span><p>go to Menu left > Settings > Basic and add your domaine name (without http:// or https://) and add your privacy polcy link <br><a href="assets/images/image_5.jpg" target="_blank"><img src="assets/images/image_5.jpg"></a></p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>8</span><p>go to Menu left > Settings > Basic and copy the app id and app secret and past it in webflix / app / config / config.yml <br><a href="assets/images/image_7.jpg" target="_blank"><img src="assets/images/image_7.jpg"></a><br><a href="assets/images/image_6.jpg" target="_blank"><img src="assets/images/image_6.jpg"></a></p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>9</span><p>go to webflix / app / cach / in your hositng > file Manager and delete prod folder</p>
+	                                </div>
+	                                <p>or just follow the video bellow</p>
+                                    <iframe width="800" height="440" src="https://www.youtube.com/embed/4sMXUEWkxjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </section>
+                            <section id="setup-google-login" class="doc-section">
+                                <h2 class="section-title">Setup Google login</h2>
+                                <div class="content">
+                                    <p>After config everything now you app need to config the google login auth to do that follow the video bellow </p>
+                                    <div class="step">
+	                                	<span>1</span><p>Go to <a href="https://firebase.google.com/">Google Firebase</a> website</p>
+	                                </div>
+                                    <div class="step">
+	                                	<span>2</span><p>Create new project (if you have already one for mobile version use it)</p>
+	                                </div>
+                                    <div class="step">
+	                                	<span>3</span><p>Now go to <a href="https://console.developers.google.com/apis/credentials">Google console developers</a> website and select the project you have created in firebase</p>
+	                                </div>
+                                    <div class="step">
+	                                	<span>4</span><p>Then go to Menu left > APIs & Services > Credentials <br><a href="assets/images/image_8.jpg" target="_blank"><img src="assets/images/image_8.jpg"></a></p>
+	                                </div>     
+                                    <div class="step">
+	                                	<span>5</span><p>Then go to  CREATE CREDENTIALS > OAuth Client ID <br><a href="assets/images/image_9.jpg" target="_blank"><img src="assets/images/image_9.jpg"></a></p>
+	                                </div>
+                                    <div class="step">
+	                                	<span>6</span><p>add your website url and your google recdirect url (https://example.com/login/check-google)<br><a href="assets/images/image_10.jpg" target="_blank"><img src="assets/images/image_10.jpg"></a></p>
+	                                </div>
+                                    <div class="step">
+	                                	<span>7</span><p>now opy the client id and client secret and set it in webflix / app / config / config.yml file <br><a href="assets/images/image_11.jpg" target="_blank"><img src="assets/images/image_11.jpg"></a><br><a href="assets/images/image_12.jpg" target="_blank"><img src="assets/images/image_12.jpg"></a></p>
+	                                </div>
+	                                <div class="step">
+	                                	<span>8</span><p>go to webflix / app / cach / in your hositng > file Manager and delete prod folder</p>
+	                                </div>
+	                                <p>or just the steps on video bellow</p>
+                                    <iframe width="800" height="440" src="https://www.youtube.com/embed/ak0NOoAP8s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </section>    
+                            <section id="admin-panel" class="doc-section">
+                                <h2 class="section-title">Admin panel</h2>
+                            </section>                    
+                            <section id="admin-panel-url" class="doc-section">
+                                <h3 class="section-title">Admin panel url</h3>
+                                <div class="content">
+                                    <p>To access to your admin panel url use your website_url/admin/ check example bellow </p>
+                                     <div class="code-block">
+                                           <pre><code class="language-markup">https://webflix.virmana.com</code></pre>
+                                     </div><!--//code-block--> 
+                                     admin panel 
+                                     <div class="code-block">
+                                           <pre><code class="language-markup">https://webflix.virmana.com/admin/</code></pre>
+                                     </div><!--//code-block--> 
+                                     default username and password 
+                                     <div class="code-block">
+                                           <pre><code class="language-markup">username : admin</code></pre>
+                                           <pre><code class="language-markup">password : 123456</code></pre>
+                                     </div><!--//code-block--> 
+                                </div>
+                            </section>   
+                            <section id="admin-panel-mobile" class="doc-section">
+                                <h3 class="section-title">Mobile app settings</h3>
+                                <div class="content">
+                                    <p>This part to settings your mobile application you can set all settings bellow</p>
+                                        <ul>
+                                            <li>App Name : You mobile app name </li>
+                                            <li>App Description : Your mobile app Description</li>
+                                            <li>Login Requied to open app: to foroce users to login before open the app</li>
+                                            <li>Firebase server key : server key from firebase for notification (we explain how to get it in mobile app documentation)</li>
+                                            <li>Application url on google play : to allow users to download your app from website</li>
+                                            <li>App icon : you can set the app icon here too</li>
+                                        </ul>
+                                </div>
+                            </section>
+                            <section id="admin-panel-web" class="doc-section">
+                                <h3 class="section-title">Web settings</h3>
+                                <div class="content">
+                                    <p>This part to settings your webflix you can set all settings bellow</p>
+                                        <ul>
+                                            <li>TheMoviedb API key : this key to import movies from imdb you can get this key from (<a href="https://www.themoviedb.org/" target="_blank">https://www.themoviedb.org/</a>) </li>
+                                            <li>TheMoviedb API language code : the imdb language use "en" for english "fr" for frensh ...</li>
+                                            <li>Web Site title: the webflix title (will display in page headr) </li>
+                                            <li>Web Site title-subtitle: the webflix subtitle-title  (will display in page headr) </li>
+                                            <li>Web site keywords :  will be added in page header and will help website for SEO</li>
+                                            <li>add html to header : if you want to add a code in website header like google analytics code</li>
+                                            <li>Website logo : you can set webflix logo</li>
+                                            <li>Website favicon : you can set webflix favicon</li>
+                                        </ul>
+                                </div>
+                            </section>   
+                            <section id="admin-panel-web" class="doc-section">
+                                <h3 class="section-title">Web settings</h3>
+                                <div class="content">
+                                    <p>This part to settings your webflix you can set all settings bellow</p>
+                                        <ul>
+                                            <li>TheMoviedb API key : this key to import movies from imdb you can get this key from (<a href="https://www.themoviedb.org/" target="_blank">https://www.themoviedb.org/</a>) </li>
+                                            <li>TheMoviedb API language code : the imdb language use "en" for english "fr" for frensh ...</li>
+                                            <li>Web Site title: the webflix title (will display in page headr) </li>
+                                            <li>Web Site title-subtitle: the webflix subtitle-title  (will display in page headr) </li>
+                                            <li>Web site keywords :  will be added in page header and will help website for SEO</li>
+                                            <li>add html to header : if you want to add a code in website header like google analytics code</li>
+                                            <li>Website logo : you can set webflix logo</li>
+                                            <li>Website favicon : you can set webflix favicon</li>
+                                        </ul>
+                                </div>
+                            </section> 
+                            <section id="admin-panel-ads" class="doc-section">
+                                <h3 class="section-title">Ads settings</h3>
+                                <div class="content">
+                                    <p>This part its to set your Google Admob/facebook audience network unit ids </p>
+                                    <p>You can set the all admob / fab settings ids and enable / disable and the anytype of ads </p>
+                                </div>
+                            </section> 
+                            <section id="admin-panel-web-ads" class="doc-section">
+                                <h3 class="section-title">Web Ads settings</h3>
+                                <div class="content">
+                                    <p>In this part you can set the ads in the webflix in your movie / tv series / channe tv / home page and also you can disable / enable  and also choose between image and embded html code</p>
+                                </div>
+                            </section> 
+                            <section id="admin-panel-payment" class="doc-section">
+                                <h3 class="section-title">Payment settings</h3>
+                                <div class="content">
+                                    <p>In this part you can manage your payment method in webflix and in your mobile application too</p>
+                                    <b>Global Settings</b>
+                                    <ul>
+                                        <li>Currency Code : set your currency code</li>
+                                    </ul>
+                                    <b>PayPal Payment</b>
+                                    <ul>
+                                        <li>Enable / disable Paypal payment</li>
+                                        <li>PayPal account  : set your payment account </li>
+                                        <li>PayPal sandbox : Enable/Disable sandbox for test</li>
+                                        <li>PayPal Client id : this key from paypal get it here (<a target="_blank" href="https://developer.paypal.com/developer/applications/">https://developer.paypal.com/developer/applications/</a>)</li>
+                                        <li>PayPal Client secret : this key from paypal (<a target="_blank" href="https://developer.paypal.com/developer/applications/">https://developer.paypal.com/developer/applications/</a>)</li>
+                                    </ul>
+                                    <b>Google Play</b>
+                                    <ul>
+                                        <li>Enable / disable Google play payment in android app </li>
+                                    </ul>
+                                    <b>Stripe Settings</b>
+                                    <ul>
+                                        <li>Enable / disable Stripe payment </li>
+                                        <li>Stripe Api Key :  this key you will get it from Stripe here (<a href="https://dashboard.stripe.com/test/dashboard" target="_blank">https://dashboard.stripe.com/test/dashboard</a>) </li>
+                                        <li>Stripe Public Key :  this key you will get it from Stripe here (<a href="https://dashboard.stripe.com/test/dashboard" target="_blank">https://dashboard.stripe.com/test/dashboard</a>) </li>
+                                    </ul>
+                                    <b>Cash Payment Settings</b>
+                                    <ul>
+                                        <li>Enable / disable Cash Payment</li>
+                                        <li>Cash Account Infos : here add your payment infos </li>
+                                    </ul>
+                                </div>
+                            </section>   
+                            <section id="update" class="doc-section">
+                                <h2 class="section-title">Update</h2>
+                                <div class="content">
+                                    <p></p>
+                                </div>
+                                <br>
+                                <div id="update_1_1" class="section-block">
+                                    <h4 class="block-title">Update To 1.1</h4>
+                                    <div class="content">
+                                        <p>
+                                           to update app to 1.1 update the files monetioned bellow from original source code to your current project 
+                                        </p>
+                                        <pre><code class="language-markup">
+src/WebBundle/Resources/views/Player/episode.html.twig
+src/AppBundle/Controller/SubscriptionController.php
+src/WebBundle/Controller/SubscriptionController.php
+src/UserBundle/Controller/UserController.php
+</code>
+</pre>
+                                    </div>
+
+                                </div>
+                                <div id="update_1_2" class="section-block">
+                                    <h4 class="block-title">Update To 1.2</h4>
+                                    <div class="content">
+                                        <p>
+                                           to update app to 1.2 update the files monetioned bellow from original source code to your current project 
+                                        </p>
+                                        <pre><code class="language-markup">
+src/AppBundle/Entity/Support.php
+
+src/AppBundle/Resources/config/routing.yml
+src/AppBundle/Controller/HomeController.php
+src/AppBundle/Resources/views/Home/apprefundpolicy.html.twig
+
+src/WebBundle/Controller/HomeController.php
+src/WebBundle/Controller/MovieController.php
+src/WebBundle/Controller/SerieController.php
+src/WebBundle/Controller/ChannelController.php
+
+src/WebBundle/Resources/views/Home/contact.html.twig
+
+src/WebBundle/Resources/views/Movie/view.html.twig
+src/WebBundle/Resources/views/Movie/downloads.html.twig
+src/WebBundle/Resources/views/Movie/subtitles.html.twig
+
+src/WebBundle/Resources/views/Serie/downloads.html.twig
+src/WebBundle/Resources/views/Serie/subtitles.html.twig
+
+src/WebBundle/Resources/views/Channel/view.html.twig
+
+src/WebBundle/Resources/views/login.html.twig
+src/WebBundle/Resources/views/layout.html.twig
+
+app/Resources/TwigBundle/views/Exception/error.html.twig
+
+public_html(or public)/web/js/app.js
+
+</code>
+</pre>
+                                    </div>
+                                    <p>Then go to <b>Webflix / var / cache /</b> and delete prod <b>folder</b></p>
+                                </div>
+                            </section>
+                        </div><!--//content-inner-->
+                        
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+	                        
+	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto" href="#setup-webflix">Setup webflix</a>
+                                    <a class="nav-link scrollto" href="#setup-facebook-login">Setup facebook login</a>
+                                    <a class="nav-link scrollto" href="#setup-google-login">Setup google login</a>
+                                    <a class="nav-link scrollto" href="#admin-panel">Admin panel</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#admin-panel-url">Admin panel url</a>
+                                        <a class="nav-link scrollto" href="#admin-panel-mobile">Mobile app settings</a>
+                                        <a class="nav-link scrollto" href="#admin-panel-web">Web settings</a>
+                                        <a class="nav-link scrollto" href="#admin-panel-ads">Ads settings</a>
+                                        <a class="nav-link scrollto" href="#admin-panel-web-ads">Web Ads settings</a>
+                                        <a class="nav-link scrollto" href="#admin-panel-payment">Payment settings</a>
+                                    </nav><!--//nav--> 
+                                    <a class="nav-link scrollto" href="#update">Updates</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#update_1_1">Update to 1.1</a>
+                                        <a class="nav-link scrollto" href="#update_1_2">Update to 1.2</a>
+                                    </nav><!--//nav-->     
+                                </nav><!--//doc-menu-->
+	                        
+                        </div>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+
+    
+     
+    <!-- Main Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+<script type="text/javascri
+    
+</body>
+</html> 
+

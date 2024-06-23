@@ -1,0 +1,35 @@
+[search]
+Class="Function"
+Prototype="void search(int a, const char *tag, char *msg, int _input);"
+SourceLocation="c:\Users\g702306\Desktop\applioc\apptestv\appwifiv1.c:61:6"
+
+[getLen]
+Class="Function"
+Prototype="int getLen(char *string);"
+SourceLocation="c:\Users\g702306\Desktop\applioc\apptestv\appwifiv1.c:124:5"
+
+[trim]
+Class="Function"
+Prototype="void trim(char *string, int strLength);"
+SourceLocation="c:\Users\g702306\Desktop\applioc\apptestv\appwifiv1.c:133:6"
+
+[matchFound]
+Class="Function"
+Prototype="int matchFound(int start, char *str, char *pattern);"
+SourceLocation="c:\Users\g702306\Desktop\applioc\apptestv\appwifiv1.c:143:5"
+
+[replace]
+Class="Function"
+Prototype="char *replace(char *original, char *pattern, char *newSubstr);"
+SourceLocation="c:\Users\g702306\Desktop\applioc\apptestv\appwifiv1.c:156:7"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\g702306\Desktop\applioc\apptestv\appwifiv1.c:202:5"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\g702306\Desktop\applioc\apptestv\appwifiv1.c:229:17"
+
